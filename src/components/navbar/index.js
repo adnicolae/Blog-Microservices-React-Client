@@ -1,5 +1,5 @@
 import React from "react";
-import { Flex, Box, Image, Icons, Link, Text, Button } from "ucc-design-system";
+import { Flex, Box, Icons, Link } from "ucc-design-system";
 
 const NavBar = () => {
   return (
