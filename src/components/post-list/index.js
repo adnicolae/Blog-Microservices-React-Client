@@ -17,7 +17,7 @@ const PostList = () => {
   }, [posts]);
 
   return (
-    <Flex flexDirection="column" ml={4} mr={4}>
+    <Flex flexDirection="column" ml={4} mr={4} mt={4}>
       <Heading>Posts</Heading>
       <Grid
         gridTemplateColumns={"repeat(auto-fit, minmax(40vw, 1fr))"}

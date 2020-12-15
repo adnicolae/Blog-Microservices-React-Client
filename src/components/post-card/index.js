@@ -1,7 +1,8 @@
 import React from 'react';
+import CreateComment from '../create-comment';
 import { Text, Box, Heading, Flex } from 'ucc-design-system';
 
-const PostCard = ({ post: { title, body } }) => {
+const PostCard = ({ post: { id, title, body } }) => {
   return (
     <Box
       flexDirection="row"
@@ -9,7 +10,8 @@ const PostCard = ({ post: { title, body } }) => {
     >
       <Flex ml={ 2 } flexDirection="column" p={ 3 }>
         <Heading type="h2">{ title }</Heading>
-        <Text mt={2}>{ body }</Text>
+        <Text mt={2} >{ body }</Text>
+        <CreateComment postId={id} />
       </Flex>
     </Box>
   )
