@@ -19,8 +19,8 @@ const PostList = () => {
   return (
     <Flex flexDirection="column" ml={4} mr={4}>
       <Heading>Posts</Heading>
-      <Grid 
-        gridTemplateColumns={["1fr", "1fr", "1fr 1fr"]} 
+      <Grid
+        gridTemplateColumns={"repeat(auto-fit, minmax(40vw, 1fr))"}
         gridColumnGap={4}
         gridRowGap={3}
       >

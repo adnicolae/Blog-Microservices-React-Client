@@ -3,7 +3,7 @@ import { Text, Box, Heading, Flex } from 'ucc-design-system';
 
 const PostCard = ({ post: { title, body } }) => {
   return (
-    <Box 
+    <Box
       flexDirection="row"
       variant="shadowed"
     >
