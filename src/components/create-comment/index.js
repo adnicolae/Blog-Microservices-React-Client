@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import axios from 'axios';
-import { FormInput, Text, Input, Button, Heading, Flex } from 'ucc-design-system';
+import { FormInput, Text, Input, Button, Flex } from 'ucc-design-system';
 
 const CreateComment = ({ postId }) => {
   const [ content, setContent ] = useState('');

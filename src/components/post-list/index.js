@@ -14,7 +14,7 @@ const PostList = () => {
 
   useEffect(() => {
     fetchPosts();
-  }, [posts]);
+  }, []);
 
   return (
     <Flex flexDirection="column" ml={4} mr={4} mt={4}>
